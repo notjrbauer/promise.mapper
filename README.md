@@ -1,19 +1,19 @@
-# promise-map
+# promise.mapper
 > "Returns a promise containing the result of the promisified mappingFn on its elements. *Order is preserved*. Additionally, rejection occurs if any of the promises reject. 
 
 
-[![NPM][promise-map-icon]][promise-map-url]
+[![NPM][promise-mapper-icon]][promise-mapper-url]
 
 ## Install
 
 ```sh
-$ npm install promise.map --save
+$ npm install promise.mapper --save
 ```
 
 ## Usage
 
 ```js
-var map = require('promise.map')
+var map = require('promise.mapper')
 var makeRequest = (input) => http.Get(input).then(data => data.statusCode)
 
 map([
@@ -37,5 +37,5 @@ A sequence of promises or instanceof Iterable
 ##### mapperFn  `Function`
 A mapping function that returns a *promise*
 
-[promise-map-icon]: https://nodei.co/npm/promise.map.png?downloads=true
-[promise-map-url]: https://npmjs.org/package/promise.map
+[promise-map-icon]: https://nodei.co/npm/promise.mapper.png?downloads=true
+[promise-map-url]: https://npmjs.org/package/promise.mapper
