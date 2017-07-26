@@ -29,7 +29,7 @@ map([
 
 #### `map(input..., mapperFn)` -> `promise`
 
-Runs multiple promise-returning functions in a series, passing each result to the next defined promise-returning function.  
+Returns a promise containing the result of the promisified mappingFn on its elements. *Order is preserved*. Additionally, rejection occurs if any of the promises reject.
 
 ##### input `Iterable<Promise|any>`
 A sequence of promises or instanceof Iterable
@@ -37,5 +37,5 @@ A sequence of promises or instanceof Iterable
 ##### mapperFn  `Function`
 A mapping function that returns a *promise*
 
-[promise-pipe-icon]: https://nodei.co/npm/promise.map.png?downloads=true
-[promise-pipe-url]: https://npmjs.org/package/promise.map
+[promise-map-icon]: https://nodei.co/npm/promise.map.png?downloads=true
+[promise-map-url]: https://npmjs.org/package/promise.map
