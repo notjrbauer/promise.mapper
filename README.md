@@ -37,5 +37,5 @@ A sequence of promises or instanceof Iterable
 ##### mapperFn  `Function`
 A mapping function that returns a *promise*
 
-[promise-map-icon]: https://nodei.co/npm/promise.mapper.png?downloads=true
-[promise-map-url]: https://npmjs.org/package/promise.mapper
+[promise-mapper-icon]: https://nodei.co/npm/promise.mapper.png?downloads=true
+[promise-mapper-url]: https://npmjs.org/package/promise.mapper
