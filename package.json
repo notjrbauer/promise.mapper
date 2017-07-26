@@ -1,0 +1,35 @@
+{
+  "name": "promise.map",
+  "version": "1.0.0",
+  "description": "maps over provided promises",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notjrbauer/promise.map.git"
+  },
+  "keywords": [
+    "promise",
+    "compose",
+    "map",
+    "array",
+    "functional",
+    "series",
+    "nodejs",
+    "async",
+    "mapper"
+  ],
+  "author": "notjrbauer@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notjrbauer/promise.map/issues"
+  },
+  "homepage": "https://github.com/notjrbauer/promise.map#readme",
+  "devDependencies": {
+    "blue-tape": "^1.0.0",
+    "standard": "^10.0.2",
+    "tap-spec": "^4.1.1"
+  }
+}
